@@ -1,44 +1,34 @@
-# PUC Minas AEDS Projects in C
+# Sorting Methods Project
 
-Welcome to my collection of projects developed for the Data Structures and Algorithms (AEDS) course at PUC Minas. All projects in this repository are implemented in the C programming language.
+This project implements various sorting algorithms in C, alongside a main struct for managing player data.
 
-## Introduction
+## Folder Structure
+- `1/`: Contains the main struct for handling player data.
+- `1.1/`: Binary Search implementation.
+- `1.2/`: Recursive Selection Sort implementation.
+- `1.3/`: Shell Sort implementation.
+- `1.4/`: Quick Sort implementation.
+- `1.5/`: Bubble Sort implementation.
+- `1.6/`: Radix Sort implementation.
 
-This repository is a compilation of various projects and assignments completed during my AEDS course at PUC Minas. Each project focuses on a specific data structure or algorithm, providing practical experience in C programming.
+## Struct Principal (Folder `1/`)
+The core struct of the project, designed to handle player data read from a file. It serves as the backbone of the application, ensuring efficient data storage, access, and manipulation.
 
-## Getting Started
+## Sorting Algorithms
+### Binary Search (Folder `1.1/`)
+A fast and efficient search algorithm implemented for sorted datasets.
 
-### Prerequisites
+### Recursive Selection Sort (Folder `1.2/`)
+A recursive version of the selection sort algorithm, showcasing a different approach to sorting.
 
-To run these projects, you will need:
+### Shell Sort (Folder `1.3/`)
+An in-place comparison sort that improves the efficiency of insertion sort.
 
-- A C compiler, such as GCC
-- A text editor or an integrated development environment (IDE) like Code::Blocks or Visual Studio Code
+### Quick Sort (Folder `1.4/`)
+A divide-and-conquer sorting algorithm known for its impressive speed and efficiency.
 
-### Installation
+### Bubble Sort (Folder `1.5/`)
+A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
 
-1. Clone the repository to your local machine:
-   ```sh
-   git clone https://github.com/aesso/aeds-projects-c.git
-2. Navigate to the specific project directory:
-   ```sh
-   cd aeds-projects-c/project-directory
-3. Compile the C file:
-   ```sh
-   gcc -o output-filename input-filename.c
-4. Run the compiled program:
-   ```sh
-   ./output-filename
-   
-## Projects Index
-
-Here, you can list and briefly describe each project in the repository:
-
-1. **Sorting Methods**: This project is an implementation of various sorting algorithms using C. It involves a struct that reads player data from a file. There are 16 different sorting methods implemented, each identified by a unique code and with its own function name. The project serves as a comprehensive practice of sorting algorithms and their efficiency.
-
-2. **Project 2 (In Production)**: This project is currently under development, and more details will be provided upon completion.
-
-## Acknowledgments
-
-- Thanks to PUC Minas for providing the learning resources and environment.
-- Special thanks to the professors and mentors who guided me through the learning process.
+### Radix Sort (Folder `1.6/`)
+A non-comparative integer sorting algorithm that sorts numbers by processing individual digits.
