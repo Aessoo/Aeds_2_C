@@ -19,7 +19,7 @@ To run these projects, you will need:
 
 1. Clone the repository to your local machine:
    ```sh
-   git clone https://github.com/aesso/aeds-projects-c.git
+   git clone https://github.com/Aessoo/Aeds_2_C.git
 2. Navigate to the specific project directory:
    ```sh
    cd aeds-projects-c/project-directory
